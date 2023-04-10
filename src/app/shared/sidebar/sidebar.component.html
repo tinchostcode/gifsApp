@@ -5,7 +5,7 @@
     <hr class="text-light">
     <div class="list-group list-reset">
       <a *ngFor="let historial_item of historial"
-      href="#"class="list-group-item list-group-item-action">
+      href="#"class="list-group-item list-group-item-action " (click)="buscar(historial_item)" >
        {{historial_item}}
       </a>
     </div>
